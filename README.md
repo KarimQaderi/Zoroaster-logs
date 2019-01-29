@@ -1,8 +1,8 @@
 ## Zoroaster Log Viewer
 
-![screenshot 1](https://github.com/KarimQaderi/Zoroaster-logs/blob/master/1.png?raw=true)
+![screenshot 1](https://raw.githubusercontent.com/KarimQaderi/Zoroaster-logs/master/1.png)
 
-![screenshot 2](https://github.com/KarimQaderi/Zoroaster-logs/blob/master/2.png?raw=true)
+![screenshot 2](https://raw.githubusercontent.com/KarimQaderi/Zoroaster-logs/master/2.png)
 
 ## نصب 
 
