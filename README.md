@@ -1,8 +1,8 @@
 ## Zoroaster Log Viewer
 
-![screenshot 1](1.png)
+![screenshot 1](https://github.com/KarimQaderi/Zoroaster-logs/blob/master/1.png?raw=true)
 
-![screenshot 2](2.png)
+![screenshot 2](https://github.com/KarimQaderi/Zoroaster-logs/blob/master/2.png?raw=true)
 
 ## نصب 
 
@@ -22,9 +22,12 @@
 
 ```bash
 composer update
+
+php artisan vendor:publish --tag=Zoroaster-filemanager-assets
+
 ```
 
-## سطع دسترسی کلی 
+## سطع دسترسی 
 
 برای اینکه سطع دسترسی رو بزارید فایل `app/Providers/ZoroasterServiceProvider.php` رو باز کنید کد زیر رو در `boot` قرار دهید. 
 
