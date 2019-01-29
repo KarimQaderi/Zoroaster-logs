@@ -1,0 +1,33 @@
+{
+    "name": "karim-qaderi/zoroaster-logs",
+    "description": "Provides a Log Viewer for zoroaster",
+    "keywords": [
+        "laravel",
+        "zoroaster"
+    ],
+    "authors": [
+        {
+            "name": "Karim Qaderi",
+            "email": "karimqaderi1@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "arcanedev/log-viewer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "KarimQaderi\\ZoroasterLogViewer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KarimQaderi\\ZoroasterLogViewer\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
