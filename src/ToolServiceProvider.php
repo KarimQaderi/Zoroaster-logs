@@ -25,7 +25,7 @@
             });
 
             Zoroaster::SidebarMenus([
-                MenuItem::make()->route('Zoroaster-log-viewer.getListLogs' , 'مشاهدی خطاها')->icon('file-2')
+                MenuItem::make()->route('Zoroaster-log-viewer.getListLogs' , 'مشاهدی خطاها')->icon('file-2')->gate('Zoroaster-log-viewer')
             ]);
 
 
